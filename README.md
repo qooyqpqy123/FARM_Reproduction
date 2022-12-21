@@ -11,14 +11,24 @@ FRED-MD is a large macroeconomic database designed for the empirical analysis of
  In our .zip file, the original Dataset is provided in folder ``Code_Reproduction/Real_Data/Pre_process/current.csv." <br />
  The description of the data is provied in "Code_Reproduction/Real_Data/Pre_process/Description_of_Variables.pdf."  <br /> This description describes the meaning of all columns of this datset.
 
-## Codes Description and Implementation <br />
+## Codes Description and Implementation Details:
  There are in total four folders under the folder: ``Code_Reproduction/Real_Data."  <br /> 1. Pre_process, 2. Prediction_Table 3, 3. PCR_Adequate_Table4, 4. Sparse_Adequate_Table4. <br />
-### For Folder `Code_Reproduction/Real_Data/Pre_process':
+### Folder `Code_Reproduction/Real_Data/Pre_process':
  It contains the Codes for real data pre-processing. The document `current.csv' in that folder is our downloaded orignal dataset from the aforementioned website. <br />
  
  The code "realdata_read.R" contains the codes for pre-processing the data. The line 4 in "realdata_read.R", we have a variable called: "choose_time". If one lets choose_time=1 and run the codes, the output is the processed dataset "realdata_115_126.csv". If one lets choose_time=2, and run the codes, the output is the processed dataset "realdata_189_126.csv."<br />
  
  Finally, for document "Description_of_Variables.pdf" inside that document, it contains the detailed description of all variables in the orignal dataset "current.csv". <br />
+
+### Folder `Code_Reproduction/Real_Data/Prediction_Table3':
+This folder contains the codes for reproducing the prediction results of Table 3 in our paper. <br />
+
+For code "realdata_prediction_115.R", it first reads the data "realdata_115_126.csv". On the line 54 of this file, there is a variable "j". If we set j=49, and run the codes, we reproduce the line "HOUSTNE" line during "08.2010-02.2020" in Table 3. If we set j=81 and run the codes, we reproduce the line "GS5" line during "08.2010-02.2020" in Table 3. <br />
+
+For code "realdata_prediction_189.R", it first reads the data "realdata_189_126.csv". On the line 54 of this file, there is a variable "j". If we set j=49, and run the codes, we reproduce the line "HOUSTNE" line during "02.1992-10.2007" in Table 3. If we set j=81 and run the codes, we reproduce the line "GS5" line during "02.1992-10.2007" in Table 3. <br />
+
+
+
 
 
  
