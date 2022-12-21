@@ -27,7 +27,7 @@ For code "realdata_prediction_115.R", it first reads the data "realdata_115_126.
 
 For code "realdata_prediction_189.R", it first reads the data "realdata_189_126.csv". On the line 54 of this file, there is a variable "j". If we set j=49, and run the codes, we reproduce the line "HOUSTNE" line during "02.1992-10.2007" in Table 3. If we set j=81 and run the codes, we reproduce the line "GS5" line during "02.1992-10.2007" in Table 3. <br />
 
-
+For both .R files, the output are printed in line 149-161 and 189 for different methods :Lasso (sparse linear regression), PCR (latent factor regression), Ridge (Ridge regression), El-Net (Elastic Net), RF (Random Forest), and FarmSelect (Factor adjusted Lasso), respectively.
 
 
 
