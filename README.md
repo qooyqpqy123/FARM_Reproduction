@@ -12,7 +12,7 @@ FRED-MD is a large macroeconomic database designed for the empirical analysis of
  The description of the data is provied in "Code_Reproduction/Real_Data/Pre_process/Description_of_Variables.pdf."  <br /> This description describes the meaning of all columns of this datset.
 
 ## Codes Description and Implementation Details:
- There are in total four folders under the folder: ``Code_Reproduction/Real_Data."  <br /> 1. Pre_process, 2. Prediction_Table 3, 3. PCR_Adequate_Table4, 4. Sparse_Adequate_Table4. <br />
+ There are in total four folders under the folder: ``Code_Reproduction/Real_Data."  <br /> 1. Pre_process, <br />2. Prediction_Table_3 <br />  3. PCR_Adequate_Table4, <br /> 4. Sparse_Adequate_Table4. <br />
 ### Folder `Code_Reproduction/Real_Data/Pre_process':
  It contains the Codes for real data pre-processing. The document `current.csv' in that folder is our downloaded orignal dataset from the aforementioned website. <br />
  
