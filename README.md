@@ -16,8 +16,8 @@ FRED-MD is a large macroeconomic database designed for the empirical analysis of
 ### For Folder `Code_Reproduction/Real_Data/Pre_process':
  It contains the Codes for real data pre-processing. The document `current.csv' in that folder is our downloaded orignal dataset from the aforementioned website. <br />
  
- The code ``realdata_read.R" contains the codes for pre-processing the data. The line 4 in ``realdata_read.R", we have a variable called: ``choose_time". If one lets choose_time=1 and run the codes, the output is the processed dataset ``realdata_115_126.csv". If one lets choose_time=2, and run the codes, the output is the processed dataset ``realdata_189_126.csv."<br />
- Finally, for document ``Description_of_Variables.pdf" inside that document, it contains the detailed description of all variables in the orignal dataset ``current.csv".
+ The code "realdata_read.R" contains the codes for pre-processing the data. The line 4 in "realdata_read.R", we have a variable called: "choose_time". If one lets choose_time=1 and run the codes, the output is the processed dataset "realdata_115_126.csv". If one lets choose_time=2, and run the codes, the output is the processed dataset "realdata_189_126.csv."<br />
+ Finally, for document "Description_of_Variables.pdf" inside that document, it contains the detailed description of all variables in the orignal dataset "current.csv".
 
 
  
