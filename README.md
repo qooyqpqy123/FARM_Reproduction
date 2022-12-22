@@ -69,6 +69,8 @@ For folder Gaussian and Uniform, they contain codes **Gauss_consistency.R** and 
 
 For folder Heavy-tail: it contains codes: **huber_estimation.R** and **T-consistency.R**. By running these codes directly, we reproduce the methodology for generating the red line and blue line of (c) of Figure 1.
 
+**Run time** of **Gauss_consistency.R**, **Uniform_consistency.R**, **huber_estimation.R** and **T-consistency.R** are around 5 hrs, respectively.
+
 ### Folder `Code_Reproduction/simulation/Simulation_Table1/':
 There is one file **pcr_adequate.R** under this folder. It reproduces the methodology of Table 1. <br /> 
 There are several parameters in this file need to be pre-specified. They correspond to different simulation settings of the paper. <br /> 
@@ -79,6 +81,7 @@ There are several parameters in this file need to be pre-specified. They corresp
 
 3. Third, on line 16, if we let the parameter "choose_noise=1", it outputs the results when the noise is generated based on Gaussian distribution. If we let the parameter "choose_noise=2",it outputs the results under the setting where the noise follows uniform distribution.  <br /> 
 
+**Run time** of **pcr_adequate.R** for any given setting described above is around 12 hrs.
 
 ### Folder `Code_Reproduction/simulation/Simulation_Table2/':
 
@@ -91,13 +94,19 @@ There are several parameters in this file need to be pre-specified. They corresp
 
 3. Third, on line 95, if we let the parameter "choose_mix=1", it outputs the results under the setting where the covariates are generated i.i.d. If we let the parameter "choose_mix=2",it outputs the results under the setting where the covariates are strong mixing. <br /> 
 
+**Run time** of **inference.R** for any given setting described above is around 5 hrs.
 
 ### Folder `Code_Reproduction/simulation/Prediction_Section_B.1/':
 
 There are four files inside  this folder. **Prediction_Table1.R**, **Prediction_Table2.R**, **Prediction_Table3.R**, and **Prediction_Table4.R**   <br /> 
 They reproduces the Table 1-4 in Appendix, respectively. 
 
+**Run time** of **Prediction_Table1.R**, **Prediction_Table2.R**, **Prediction_Table3.R**, and **Prediction_Table4.R** for any given setting described above is less than 30 min.
+
 ### Folder `Code_Reproduction/simulation/Figure7_appendix/':
 
 There is one file **qqplot_figure7.R** in the folder. It reproduces the methodology to generate Figure 7 in Appendix. The implementation is to run codes in 1-160 lines to generate "sure.csv". After that, one needs to read in this "sure.csv" to plot the qq-plot (corresponds to lines 164-171). 
+
+
+**Run time** of **qqplot_figure7.R** for any given setting described above is around 5 hrs.
 
