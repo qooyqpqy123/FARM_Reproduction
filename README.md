@@ -61,7 +61,7 @@ For folder Heavy-tail: it contains codes: **huber_estimation.R** and **T-consist
 
 ### Folder `Code_Reproduction/simulation/Simulation_Table1/':
 There is one file **pcr_adequate.R** under this folder. It reproduces the methodology of Table 1. <br /> 
-There are several parameters in this file. <br /> 
+There are several parameters in this file need to be pre-specified. They correspond to different simulation settings of the paper. <br /> 
 
 1. First, on line 7, if we let the parameter "choose_dim=1", it outputs the results with dimension p=200. If we let the parameter "choose_dim=2", it outputs the results with dimension p=500.  <br /> 
 
