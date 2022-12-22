@@ -86,7 +86,8 @@ There are several parameters in this file need to be pre-specified. They corresp
 
 ### Folder `Code_Reproduction/simulation/Prediction_Section_B.1/':
 
-There are four files inside  this folder. **Prediction_Table1.R**, **Prediction_Table2.R**, **Prediction_Table3.R**, and **Prediction_Table4.R**
+There are four files inside  this folder. **Prediction_Table1.R**, **Prediction_Table2.R**, **Prediction_Table3.R**, and **Prediction_Table4.**   <br /> 
+They reproduces the Table 1-4 in Appendix, respectively. 
 
 ### Folder `Code_Reproduction/simulation/Figure7_appendix/':
 
