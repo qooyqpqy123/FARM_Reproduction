@@ -60,6 +60,14 @@ For folder Gaussian and Uniform, they contain codes **Gauss_consistency.R** and 
 For folder Heavy-tail: it contains codes: **huber_estimation.R** and **T-consistency.R**. By running these codes directly, we reproduce the methodology for generating the red line and blue line of (c) of Figure 1.
 
 ### Folder `Code_Reproduction/simulation/Simulation_Table1/':
+There is one file **pcr_adequate.R** under this folder. It reproduces the methodology of Table 1. <br /> 
+There are several parameters in this file. <br /> 
+
+1. First, on line 7, if we let the parameter "choose_dim=1", it outputs the results with dimension p=200. If we let the parameter "choose_dim=2", it outputs the results with dimension p=500.  <br /> 
+
+2. Second, on line 10, if we let the parameter "choose=1", it outputs the results under the setting where factors F and idiosyncratic components are generated via setting 1 in section 5.2 of this paper. If we let the parameter "choose=2",it outputs the results under the setting where factors F and idiosyncratic components are generated via setting 2 in section 5.2 of this paper . <br /> 
+
+3. Third, on line 16, if we let the parameter "choose_dim=1", it outputs the results under the setting where the dimension of covariate is p=200. If we let the parameter "choose_dim=2",it outputs the results under the setting where the dimension of covariate is p=500. <br /> 
 
 
 ### Folder `Code_Reproduction/simulation/Simulation_Table2/':
