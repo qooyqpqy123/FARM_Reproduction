@@ -54,7 +54,7 @@ This folder contains the codes for reproducing the hypothesis testing results of
 
 *For code file **Real_data_Sparse_189.R**, it first reads the data "realdata_189_126.csv" in that folder. On line 94 of this file, there is a variable "j". If we set j=49, and run the codes, we reproduce the line "HOUSTNE", column "SP_Linear," during "02.1992-10.2007" in Table 4. If we set j=81 and run the codes, we reproduce the line "GS5" line, column "SP_Linear", during "02.1992-10.2007" in Table 4. <br />
  
-For both .R files, the output are printed p-values of the test on whether Sparse Regression is adequate.
+For both .R files, the outputs are p-values of the test on whether Sparse Regression is adequate.
 
 **Run time** of **Real_data_Sparse_115.R** and **Real_data_Sparse_189.R** are less than 10 min.
 
