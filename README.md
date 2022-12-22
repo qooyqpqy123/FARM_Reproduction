@@ -69,14 +69,24 @@ There are several parameters in this file need to be pre-specified. They corresp
 
 2. Second, on line 10, if we let the parameter "choose=1", it outputs the results under the setting where factors F and idiosyncratic components are generated via setting 1 in section 5.2 of this paper. If we let the parameter "choose=2",it outputs the results under the setting where factors F and idiosyncratic components are generated via setting 2 in section 5.2 of this paper . <br /> 
 
-3. Third, on line 16, if we let the parameter "choose_dim=1", it outputs the results under the setting where the dimension of covariate is p=200. If we let the parameter "choose_dim=2",it outputs the results under the setting where the dimension of covariate is p=500. <br /> 
+3. Third, on line 16, if we let the parameter "choose_noise=1", it outputs the results when the noise is generated based on Gaussian distribution. If we let the parameter "choose_noise=2",it outputs the results under the setting where the noise follows uniform distribution.  <br /> 
 
 
 ### Folder `Code_Reproduction/simulation/Simulation_Table2/':
 
+There is one file **inference.R** under this folder. It reproduces the methodology of Table 2. <br /> 
+There are several parameters in this file need to be pre-specified. They correspond to different simulation settings of the paper. <br /> 
+
+1. First, on line 93, if we let the parameter "choose_p=1", it outputs the results with dimension p=250. If we let the parameter "choose_p=2", it outputs the results with dimension p=600.  <br /> 
+
+2. Second, on line 94, if we let the parameter "choose_noise=1", it outputs the results where the noise is generated based on Gaussian distribution. If we let the parameter "choose_noise=2",it outputs the results under the setting where the noise follows uniform distribution. <br /> 
+
+3. Third, on line 95, if we let the parameter "choose_mix=1", it outputs the results under the setting where the covariates are generated i.i.d. If we let the parameter "choose_mix=2",it outputs the results under the setting where the covariates are strong mixing. <br /> 
+
 
 ### Folder `Code_Reproduction/simulation/Prediction_Section_B.1/':
 
+There are four files inside  this folder. **Prediction_Table1.R**, **Prediction_Table2.R**, **Prediction_Table3.R**, and **Prediction_Table4.R**
 
 ### Folder `Code_Reproduction/simulation/Figure7_appendix/':
 
