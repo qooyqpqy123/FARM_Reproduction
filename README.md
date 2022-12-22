@@ -9,7 +9,7 @@ FRED-MD is a large macroeconomic database designed for the empirical analysis of
 ### 1.2. Data Availability <br />
  The original dataset can be found in https://research.stlouisfed.org/econ/mccracken/fred-databases/. <br />
  In our .zip file, the original Dataset is provided in folder ``Code_Reproduction/Real_Data/Pre_process/current.csv." <br />
- The description of the data is provied in "Code_Reproduction/Real_Data/Pre_process/Description_of_Variables.pdf."  <br /> This description describes the meaning of all columns of this datset.
+ The description of the data is provided in "Code_Reproduction/Real_Data/Pre_process/Description_of_Variables.pdf."  <br /> This description describes the meaning of all columns of this datset.
 
 ## Codes Description and Implementation Details:
  There are in total four folders under the folder: ``Code_Reproduction/Real_Data."  <br /> 1. Pre_process, <br />2. Prediction_Table_3 <br />  3. PCR_Adequate_Table4, <br /> 4. Sparse_Adequate_Table4. <br />
