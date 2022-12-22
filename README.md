@@ -56,7 +56,9 @@ For both .R files, the output are printed p-values of the test on whether Sparse
 
 ### Folder `Code_Reproduction/simulation/Consitency_Figure1/':
 There are three sub-folders inside this folder, namely, Gaussian, Uniform, Heavy-tail. <br />
+
 For folder Gaussian and Uniform, they contain codes **Gauss_consistency.R** and **Uniform_consistency.R**, respectively. By running these codes directly, we reproduce the methodology for generating results for Figure 1 (a) and (b). <br />
+
 For folder Heavy-tail: it contains codes: **huber_estimation.R** and **T-consistency.R**. By running these codes directly, we reproduce the methodology for generating the red line and blue line of (c) of Figure 1.
 
 ### Folder `Code_Reproduction/simulation/Simulation_Table1/':
