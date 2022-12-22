@@ -91,5 +91,5 @@ They reproduces the Table 1-4 in Appendix, respectively.
 
 ### Folder `Code_Reproduction/simulation/Figure7_appendix/':
 
-There is one file "qqplot_figure7.R" in the folder. It reproduces the methodology to generate Figure 7 in Appendix. The implementation is to run codes in 1-160 lines to generate "sure.csv". After that, one needs to read in this "sure.csv" to plot the qq-plot (corresponds to lines 164-171). 
+There is one file **qqplot_figure7.R** in the folder. It reproduces the methodology to generate Figure 7 in Appendix. The implementation is to run codes in 1-160 lines to generate "sure.csv". After that, one needs to read in this "sure.csv" to plot the qq-plot (corresponds to lines 164-171). 
 
